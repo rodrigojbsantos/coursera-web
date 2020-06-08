@@ -1,1 +1,89 @@
-
+*{
+font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 50px;
+}
+body{
+	 margin: 0px
+	 padding: 0px;
+}
+.container{
+	width: 100%;
+}
+.description{
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#chicken{
+	background-color: pink;
+}
+#beef{
+	background-color: red;
+	color: white;
+	border-color: black;
+}
+#sushi{
+	background-color: yellow;
+}
+.plate{
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	border: solid;
+	border-top: 0px;
+	border-right: 0px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+}
+.block{
+	float: left;
+	width: 30%;
+	height: 200px;
+	margin: 20px;
+	background: lightgray;
+	border: solid;
+	position: relative;
+	overflow: hidden;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.block1, .block2{
+		float: left;
+		width: 45%;
+		height: 200px;
+		margin: 20px;
+		background: lightgray;
+		border: solid;
+		position: relative;
+		overflow: hidden;
+	}
+	.block3{
+		float: left;
+		width: 95%;
+		height: 200px;
+		margin: 20px;
+		background: lightgray;
+		border: solid;
+		position: relative;
+		overflow: hidden;
+	}
+}
+@media (max-width:767px) {
+.block{
+	float: left;
+	width: 90%;
+	height: 200px;
+	margin: 20px;
+	background: lightgray;
+	border: solid;
+	position: relative;
+	overflow: hidden;
+}
+}
